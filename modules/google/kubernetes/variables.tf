@@ -4,11 +4,6 @@ variable "region" {
   default     = "us-east1-b"
 }
 
-variable "project_id" {
-  type        = string
-  description = "Project ID to be used."
-}
-
 variable "cluster_name" {
   type        = string
   description = "The cluster name to be deployed."
