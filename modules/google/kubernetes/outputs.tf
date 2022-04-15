@@ -7,5 +7,5 @@ output "cluster_name" {
 }
 
 output "zone" {
-  value = google_container_cluster.this.zone
+  value = google_container_cluster.this.location
 }
